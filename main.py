@@ -18,7 +18,7 @@ print(dados)
 
 def salvarDados (df):
     try:
-        df.to_csv(r"C:\Users\marco\Downloads\dadosparaDashboard.csv", sep=';', decimal=',' ,index=False)
+        df.to_csv(r"dadosparaDashboard.csv", sep=';', decimal=',' ,index=False)
         print ("Dados Salvo com sucesso")
     except Exception as e:
         print(f"Falha ao importar:{e} ")
