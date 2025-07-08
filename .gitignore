@@ -1,0 +1,22 @@
+# Ambiente virtual
+venv/
+
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Banco de dados (caso queira ignorar)
+*.db
+
+# Arquivos de configuração
+.env
+
+# VSCode
+.vscode/
+
+# Checkpoints do Jupyter
+*.ipynb_checkpoints
+
+# Logs
+*.log
